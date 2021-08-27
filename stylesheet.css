@@ -1,0 +1,134 @@
+.body {
+  font-family: "Avener Next";
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.flex-list{
+  display: flex;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-title {
+  width: 124px;
+  margin-top: 20px;
+  float: left;
+  line-height: 32px;
+}
+
+.header-left {
+  color: #fff;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(34, 49, 52, 0.9);
+  margin-right: -25px;
+  line-height: 32px;
+  transition: all 5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(204, 204, 204, 0.473);
+  
+}
+
+.header-right a {
+  padding: 0 25px;
+  display: block;
+ color: #fff
+}
+
+.top-wrapper {
+  height: 300px;
+ margin-top: 100px 30px 0px 30px;
+ background-image: url(../img/backgrond.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-color: rgba(255, 255, 255, 0.192);
+ background-blend-mode:lighten;
+ color: #fff;
+ text-align: center;
+ padding: 180px 0px 0px 0px;
+}
+
+.top-wrapper h1 {
+font-size: 80px;
+letter-spacing: 20px;
+font-weight: bold;
+}
+
+.main-wrapper {
+  border-top: 10px solid rgb(34, 49, 52, 0.9);
+  margin: 30px 30px;
+}
+
+.title {
+  margin-top: 50px;
+  border-left: 10px solid rgba(34, 49, 52, 0.9);
+  padding-left: 10px;
+}
+
+.btn {
+  background-color: #5865f2;
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.discord {
+  background-color: #5865f2;
+  opacity: 0.8;
+}
+
+.fab {
+  margin-right: 5px;
+}
+
+.kouji {
+  text-align: center;
+}
+
+footer {
+  height: 100px;
+  background-color:rgba(34, 49, 52, 0.9);
+  color:white;
+}
+
+.twitter {
+  display: inline-block;
+  background-color: #55acee;
+  padding: 8px 24px;
+  border-radius: 8px;
+  color: white;
+  opacity: 1;
+}
+
+.cp {
+  text-align: center;
+}
